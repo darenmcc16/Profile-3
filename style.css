@@ -38,7 +38,7 @@ header nav ul li a{
 header nav ul li a:hover{
   color: azure;
 }
-
+/*media queries for desktop*/
 @media all and (min-width: 700px){
   header{
     display: flex;
@@ -82,7 +82,7 @@ main p{
 }
 
 li{
-  text-align: center;
+  justify-content: center;
 }
 
 /*groups and items*/
