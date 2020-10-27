@@ -80,7 +80,9 @@ main p{
   padding: 50px;
   margin: 10px;
 }
-
+ul{
+  list-style-type: none;
+}
 li{
   justify-content: center;
 }
@@ -96,9 +98,12 @@ li{
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.items{
+.item{
   flex: 1;
   margin-bottom: 10px;
 }
@@ -106,6 +111,12 @@ li{
 .item-double{
   flex: 2;
   margin-bottom: 10px;
+}
+
+.images{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer{
@@ -125,7 +136,7 @@ footer ol{
   width: 80%;
 }
 .item{
-  padding: 0 10%;
+  padding: 0;
 }
 .group{
   flex-direction: row;
