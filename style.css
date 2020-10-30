@@ -85,6 +85,7 @@ ul{
 }
 li{
   justify-content: center;
+  padding-right: 50px;
 }
 
 /*groups and items*/
