@@ -1,115 +1,398 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Daren McCarrell</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+<html lang="en">
 
-  <header>
-    <h1>Daren McCarrell</h1>
-    <h3>Chicago,IL</h3>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<head>
+    <title>Daren McCarrell - Full Stack Developer - Portfolio</title>
+
+
+    <meta name="title" content="Daren McCarrell - Full Stack Developer - Portfolio">
+    <meta name="description"
+        content="As a lifelong learner, I love coding because it constantly challenges me to push the boundaries of my knowledge.">
+    <meta name="keywords"
+        content="fullstack developer, full-stack developer, full stack developer, HTML, HTML5, CSS, CSS3, JavaScript, jQuery, Node.js, Express, Postman, Postgres, Knex, Mocha, Chai, Heroku, GitHub, Dbeaver, React">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Daren McCarrell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="print.css" rel="stylesheet" media="print">
+</head>
+
+<body>
+
+    <header id="top">
+        <nav class="clearfix">
+            <div class="logo">Daren McCarrell</div>
+            <ul class="nav-items">
+                <li class="show-web-only">
+                    <a href="#top">
+                        <i class="fa fa-home clickables"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#bio">
+                        <i class="fas fa-user-circle"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#skills">
+                        <i class="fa fa-cog"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#projects">
+                        <i class="fa fa-briefcase"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://github.com/darenmcc16">Portfolio Page: https://github.com/darenmcc16
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="mailto:darenmcc16@gmail.com">
+                        <i class="fas fa-envelope"></i> darenmcc16@gmail.com
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://github.com/darenmcc16">
+                        <i class="fab fa-github"></i> GitHub.com/darenmcc16
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="www.linkedin.com/in/evan-poe-full-stack-developer">
+                        <i class="fab fa-linkedin"></i> www.linkedin.com/in/evan-poe-full-stack-developer
+                    </a>
+                </li>
+                <li class="show-web-only">
+                    <a href="#contact">
+                        <i class="fa fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Let's Work Together.</h1>
+    </header>
 
     <main>
-      <!--intro section-->
-      <!--group #1 2 itmes-->
-      <div class="wrapper">
-      <article class="home">
-        <div class="group">
-          <div class="item">
-          <img src="images/Profile-pic.jpg" class="img-profile" width="200" alt="Daren profile pic">
-          <div class="item-double">
-          <h2>Software Engineer, Chicago</h2>
-          </div>
-          </div>
-        </div>
-      </article>
-      </div>
+        <!--about me section-->
+        <section class="about clearfix" id="bio">
+            <div>
+                <h2 id="about">About Me</h2>
+                <p class="bio">
+                    I am someone who loves to learn and that has been no different when it comes to software
+                    development. I love the challenges it brings as well as how it allows me to use the problem solving
+                    skills. I am always someone who tries to operate as efficiently as possible which lends itself well
+                    to coding.
+                </p>
 
-<hr>
-<!--about me section-->
-      <article class="about">
-        <div>
-          <h2 id="about-me">About Me</h2>
-          <p>I live in Chicago,Il and currently I'm enrolled as a software engineer student.  For most of my professional career I have worked in the fast paced supply chain industry.  I've worked at a logistics company as well as in a warehouse so I've learned over the years how to work with many different types of people.</p>
+                <P class="bio">The past 7 years I have worked in the supply chain industry which has given me experience
+                    in fast paced environment where meeting deadlines and efficiency goals is critical. </P>
+            </div>
+        </section>
 
-          <P>I am very excited to be getting into the web development industry now because it gives me the chance to be involved in a growing industry while doing something that interests me greatly.  I will be someone who will be self motivated and will always bring a hard work ethic to any project I work on.</P>
+        <!--Skills logo section-->
+        <section class="skills" id="skills">
+            <h2><i class="fa fa-cog"></i> Skills</h2>
+            <div class="logo-container">
+                <figure class="figure-skills">
+                    <img class="logo html" src="images/html5.png" alt="html logo">
+                    <figcaption>HTML 5</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/iconfinder_css3.png" alt="css logo">
+                    <figcaption>CSS 3</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" style="margin-left: 0;" src="images/128px-JavaScript-logo.png"
+                        alt="JavaScript logo">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/iconfinder_JQuery.png" alt="jQuery logo">
+                    <figcaption>JQuery</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/iconfinder_React.js.png" alt="react logo">
+                    <figcaption>React.js</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/iconfinder_Node_Js.png" alt="node logo">
+                    <figcaption>Node.js</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/express-logo.png" alt="express logo">
+                    <figcaption>Express</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/heroku-logo.png" alt="heroku logo">
+                    <figcaption>Heroku</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/mocha-logo.png" alt="mocha logo">
+                    <figcaption>Mocha</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/chai-logo.png" alt="chai logo">
+                    <figcaption>Chai</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/postgres-logo.png" alt="postgres logo">
+                    <figcaption>Postgres</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images/github-logo.png" alt="github logo">
+                    <figcaption>Github</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!--placeholders used for portfolio section-->
+        <!--group of 3 items-->
+        <section class="projects" id="projects">
+            <h2>
+                <i class="fa fa-briefcase"></i>
+                Projects
+            </h2>
 
-          <p>Outside of my work experience I am someone who loves to travel and try new things.  <br>
-            I am also someone who is somewhat of a health nut.  I am very interested in how the body works and what is good for it.</p>
 
-          <h4>Favorite places I've traveled</h4>
-          <ul>
-            <li>Thailand</li>
-            <li>Paris</li>
-            <li>Iceland</li>
-          </ul>
-        </div>
-      </article>
-<hr>
-<!--placeholders used for portfolio section-->
-<!--group of 3 items-->
-      <article>
-          <h2 id="portfolio">Portolio</h2>
-          <div class="group">
-            <div class="item">
-          <img src="images/landing-page.PNG" alt="Zested App Screenshot" class="images">
-          <h3><a href="https://darenmcc16.github.io/Zested-nutrition-information/">Zested</a></h3>
-          <p>Health nut or beginner this app will allow you to search all your favorite foods to find nutrition facts and plan your daily calorie intake.</p>
+            <div class="zested-container project-container">
+                <div class="project-column">
+                    <a href="" target="_blank">
+                        <img class="zested project-image" src="./images/zested.JPG" alt="Create zested">
+                    </a>
+                </div>
+
+                <div class="project-column">
+                    <h4>Zested</h4>
+                    <p class="app-description">
+                        A hub for travel enthusiasts to create and store information, as well as see public items stored
+                        by others.
+                        <!-- <span class="show-web-only">
+                        Users can view an interactive map based on keyword searches.
+                    </span> -->
+                    </p>
+                    <ul class="project-skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                    </ul>
+                    <ul class="project-buttons show-web-only">
+                        <li>
+                            <a href="https://darenmcc16.github.io/Zested-nutrition-information/" target="_blank">
+                                <i class="fas fa-desktop"></i>
+                                Demo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/darenmcc16/Zested-nutrition-information" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-buttons show-print-only">
+                        <li>
+                            <i class="fas fa-desktop"></i> https://darenmcc16.github.io/Zested-nutrition-information/
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i> https://github.com/darenmcc16/Zested-nutrition-information
+                        </li>
+                    </ul>
+                </div>
+
             </div>
 
-          <div class="item">
-          <img src="images/landing.JPG" alt="Restaurant App Screenshot" class="images">
-          <h3><a href="https://restaurants-finder.vercel.app/">Restaurant Finder</a></h3>
-          <p>Hungry but don't know where to eat? Restaurant Finder will be able to help you pick your next restaurant destination.</p>
-        </div>
-        <div class="item">
-          <img src="images/home.JPG" alt="Workout App Screenshot" class="images">
-          <h3><a href="https://workout-app-client.vercel.app/">Gym Hero</a></h3>
-          <p>No longer going to the gym or need new workouts to push yourself. You can create a exercise plan that best fits you at Gym Hero.</p>
-        </div>
-          </div>
-      </article>
+
+            <div class="resturant-container project-container">
+                <div class="project-column">
+                    <a href="https://restaurants-finder.vercel.app/" target="_blank">
+                        <img class="restaurants-finder project-image" src="./images/landing.JPG"
+                            alt="restaurants-finder image">
+                    </a>
+                </div>
+
+                <div class="project-column">
+                    <h4>Restaurant Finder</h4>
+                    <p class="app-description">
+                        Hungry but don't know where to eat? Restaurant Finder will be able to help you pick your next
+                        restaurant
+                        destination.
+                        <span class="show-web-only">
+                            Users can create an account, add, delete, and view workouts which are saved to their profile
+                            on the server.
+                        </span>
+                    </p>
+                    <ul class="project-skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>Postgres</li>
+                        <li>Heroku</li>
+                        <li>Vercel</li>
+                    </ul>
+                    <ul class="project-buttons show-web-only">
+                        <li>
+                            <a href="https://restaurants-finder.vercel.app/" target="_blank">
+                                <i class="fas fa-desktop"></i>
+                                Demo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/darenmcc16/restaurants-finder-client" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-buttons show-print-only">
+                        <li>
+                            <i class="fas fa-desktop"></i> https://restaurants-finder.vercel.app/
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i> https://github.com/darenmcc16/restaurants-finder-client
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="workout-container project-container">
+                <div class="project-column">
+                    <a href="https://workout-app-client.vercel.app/" target="_blank">
+                        <img class="gym hero project-image" src="./images/home.JPG" alt="workout app image">
+                    </a>
+                </div>
+
+                <div class="project-column">
+                    <h4>Gym Hero</h4>
+                    <p class="app-description">
+                        No longer going to the gym or need new workouts to push yourself. You can create a exercise plan
+                        that best
+                        fits you at Gym Hero
+                        <!-- <span class="show-web-only">
+                        Results listed will display basic information, and each provides a link to the particular park's website as well as a page for more information. "More Info" will display just that, as well as asynchronously call to a weather API to display a forecast for that park!
+                    </span> -->
+                    </p>
+                    <ul class="project-skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>Postgres</li>
+                        <li>Heroku</li>
+                        <li>Vercel</li>
+                    </ul>
+                    <ul class="project-buttons show-web-only">
+                        <li>
+                            <a href="https://workout-app-client.vercel.app/" target="_blank">
+                                <i class="fas fa-desktop"></i>
+                                Demo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/darenmcc16/workout-app-client" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="project-buttons show-print-only">
+                        <li>
+                            <i class="fas fa-desktop"></i> https://workout-app-client.vercel.app/
+                        </li>
+                        <li>
+                            <i class="fab fa-github"></i> https://github.com/darenmcc16/workout-app-client
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
     </main>
-<hr>
-<!--footer section will contain contact info and contact form-->
-<footer>
-  <h2 id="contact">Contact Information</h2>
-  <div class="group">
-    <div class="item">
-  <form action="https://formspree.io/darenmcc16@gmail.com" method="POST">
-  <label for="user-name">Name:</label>
-  <input id="user-name" type="text" name="name">
+    <hr>
 
-<label for="user-email">Email:</label>
-<input id="user-email" type="text" name="email">
+    <section class="contact" id="contact">
+        <ul class="contact-list">
+            <li>
+                <a href="mailto:darenmcc16@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/daren-mccarrell-369a224a/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/darenmcc16" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
 
-<label for="user-message">Message:</label>
-<textarea name="message" id="user-message" cols="30" rows="10"></textarea>
-<button type="submit">Send</button>
-  </div>
-  </div>
-  </form>
-  <ol>
-    <li><a href="https://github.com/darenmcc16">Github Profile</a></li>
-    <li><a href="https://www.linkedin.com/in/daren-mccarrell-369a224a/">LinkedIn Profile</a></li>
-    <li><a href="mailto:darenmcc16@gmail.com">darenmcc16@gmail.com</a></li>
-  </ol>
-  <img src="images/chicago-pic.jpg" alt="chicago skyline">
-</footer>
+
+    <footer>
+        <h2 id="contact">Contact Information</h2>
+        <div class="group">
+            <div class="item">
+                <form action="https://formspree.io/darenmcc16@gmail.com" method="POST">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="text" name="email">
+
+                    <label for="user-message">Message:</label>
+                    <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send</button>
+            </div>
+        </div>
+        </form>
+        <ol>
+            <li><a href="https://github.com/darenmcc16">Github Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/daren-mccarrell-369a224a/">LinkedIn Profile</a></li>
+            <li><a href="mailto:darenmcc16@gmail.com">darenmcc16@gmail.com</a></li>
+        </ol>
+        <img src="images/chicago-pic.jpg" alt="chicago skyline">
+    </footer>
 
     <script src="script.js"></script>
-  </body>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26VCEBLXX"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z26VCEBLXX');
+    </script>
+</body>
+
 </html>
